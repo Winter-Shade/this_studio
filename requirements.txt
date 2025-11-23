@@ -1,0 +1,24 @@
+# Core RL Framework
+stable-baselines3==2.2.1
+gymnasium==0.29.1
+
+# Deep Learning Backend
+torch>=2.0.0
+
+# Computer Vision (for image preprocessing)
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Game Rendering
+pygame>=2.5.0
+
+# Monitoring & Logging
+tensorboard>=2.14.0
+
+# Optional but Recommended
+matplotlib>=3.7.0  # For visualizations and frame stack plots
+tqdm>=4.65.0       # Progress bars (included in stable-baselines3)
+
+# Development Tools (optional)
+ipython>=8.12.0    # Better Python REPL
+jupyter>=1.0.0     # For notebooks and analysis
