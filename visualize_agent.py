@@ -156,7 +156,7 @@ def main():
     parser.add_argument(
         "--model",
         type=str,
-        default="ppo_breakout_cnn_750000_steps",
+        default="checkpoints_cnn_stable/ppo_breakout_cnn_1200000_steps",
         help="Path to trained model (without .zip extension)"
     )
     parser.add_argument(
